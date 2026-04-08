@@ -2,7 +2,7 @@
 
 import streamlit as st
 import numpy as np
-import joblib
+
 
 # Load model
 model = joblib.load("marriage_model.pkl")
